@@ -2,7 +2,7 @@
 
 Ft_printf graded 100 by the holy moulinette on April 2, 2021. 
 
-The file `main_ftprintf.c` is a main tester (without bonuses) with my function, in order to compare it with the file `main_realprintf.c` which is a main with the real printf. To compare those files : 
+The file `main_ftprintf.c` is a main tester (without bonuses) with my function, in order to compare it with the file `main_realprintf.c` which is a main with the real printf. To compare those files, go in RENDU-ft_printf : 
 
 `gcc -Wall -Werror -Wextra -g3 -fsanitize=address ft_printf.c sources/*.c includes/*.h ../main_ftprintf.c  && ./a.out >> mine.txt`
 
