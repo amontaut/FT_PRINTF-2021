@@ -9,7 +9,7 @@ In this repo, you will find :
   
   `cd FINAL-ft_printf` 
   
-  `gcc -Wall -Werror -Wextra -g3 -fsanitize=address ft_printf.c sources/*.c includes/*.h ../main_ftprintf.c  && ./a.out >> mine.txt` 
+  `gcc -Wall -Werror -Wextra -g3 -fsanitize=address ft_printf.c sources/*.c includes/*.h ../main_my_ftprintf.c  && ./a.out >> mine.txt` 
 
   `gcc -Wall -Werror -Wextra -g3 -fsanitize=address ft_printf.c sources/*.c includes/*.h ../main_realprintf.c  && ./a.out >> real.txt` 
 
