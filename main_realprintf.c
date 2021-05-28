@@ -1053,40 +1053,6 @@ int	main()
 	printf("|%*.*s|,|%*.*s|, |%*.*s|, |%*.*s|, |%*.*s|, |%*.*s|,  |%*.*s|, |%*.*s|, |%.s|", 4, 2, "alice", 7, 8, "alice", 10, 7, "alice", 2, 8, "alice", 8, 2, "alice", 25, 25, "alice", 35, 25, "alice", 25, 35, "alice", "alice");
 	printf("\n");
 
-
-	printf("\n------\n");
-	printf("------ les P AVEC UN NOMBRE ET WILDCARD -------\n");
-	printf("------\n");
-
-	printf("\n••normal :••\n");
-	printf("|%p|", p);
-	printf("\n");
-
-	printf("\n••-nb :••\n");
-	printf("|%-*p|, |%-*p|, |%-*p|, |%-*p|, |%-p|", 2, p, 14, p, 20, p, 25, p, p);
-	printf("\n");
-
-	printf("\n••nb :••\n");
-	printf("|%*p|, |%*p|, |%*p|, |%*p|, |%p|", 2, p, 14, p, 20, p, 25, p, p);
-	printf("\n");
-
-
-	printf("\n------\n");
-	printf("------ les P AVEC UNE STR ET WILDCARD-------\n");
-	printf("------\n");
-
-	printf("\n••normal :••\n");
-	printf("|%p|", "alice");
-	printf("\n");
-
-	printf("\n••-nb :••\n");
-	printf("|%-*p|, |%-*p|, |%-*p|, |%-*p|, |%-p|", 2, "alice", 14, "alice", 20, "alice", 25, "alice", "alice");
-	printf("\n");
-
-	printf("\n••nb :••\n");
-	printf("|%*p|, |%*p|, |%*p|, |%*p|, |%p|", 2, "alice", 14, "alice", 20, "alice", 25, "alice", "alice");
-	printf("\n");
-
 	printf("\n••mix null no flags :••\n");
 	printf("|%c|, |%s|, |%p|, |%d|, |%i|, |%u|, |%x|, |%X|", 0, NULL, NULL, 0, 0, 0, 0, 0);
 	printf("\n");
